@@ -13,11 +13,13 @@ function frameIt() {
 
 function pressIt() {
   $('input').on('keydown', function(key) {
-    if(k.which === 'G') {
+    if(key.which === 'G') {
       alert('Someone pressed the G key!!!');
     }
   });
 }
+
+function
 
 $(document).ready(function(){
 
